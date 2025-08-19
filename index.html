@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Syed Ibrahim - Aspiring Software Engineer" />
+  <title>Syed Ibrahim | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<section class="hero" id="home">
+  <h1>Syed Ibrahim</h1>
+  <p>Aspiring Software Developer | AWS Certified</p>
+</section>
+
+<header>
+  <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="#home" aria-current="page">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+<section id="about">
+  <h2>About Me</h2>
+  <p class="about-text">I am AWS Certified with strong skills in fullstack development, problem-solving, and creating responsive user experiences. I focus on clean, maintainable code and enjoy learning new technologies.</p>
+
+  <h3>Skills</h3>
+  <ul class="skills-grid">
+    <li>Languages: C, Java, Python, JavaScript, SQL, HTML, CSS, PHP</li>
+    <li>Frameworks/Technologies: AWS, ALS, Git, Responsive Web Design</li>
+    <li>Tools: VS Code, MySQL, GitHub, Eclipse, NetBeans</li>
+    <li>Core Concepts: Data Structures, OOP, Database Management, Problem Solving</li>
+  </ul>
+
+  <h3>Education</h3>
+  <table border="1">
+    <caption>Academic Background</caption>
+    <tr>
+      <th>Degree</th>
+      <th>Institution</th>
+      <th>Year</th>
+    </tr>
+    <tr>
+      <td>B.E. Computer Science & Engineering</td>
+      <td>The Oxford College of Engineering</td>
+      <td>2021–2025</td>
+    </tr>
+    <tr>
+      <td>PUC (PCMB)</td>
+      <td>Christ Junior College</td>
+      <td>2019–2020</td>
+    </tr>
+    <tr>
+      <td>SSLC</td>
+      <td>Vivekananda Educational Centre</td>
+      <td>2018</td>
+    </tr>
+  </table>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="cards">
+    <article>
+      <h3>LifeLine Donors – Blood Donation Management System</h3>
+      <p><strong>Tech Stack:</strong> PHP, JavaScript, CSS, MySQL</p>      <img src="images/project1.png" alt="LifeLine Donors project"><br>      <ul>
+        <li>Web-based platform for donor and recipient management.</li>
+        <li>Features: Registration, inventory tracking, blood bag mapping, admin dashboards.</li>
+        <li>Responsive UI and secure database integration.</li>
+      </ul>
+    </article>
+
+    <article>
+      <h3>Movie Recommendation System using Hybrid Filtering</h3>
+      <p><strong>Tech Stack:</strong> Python, Cosine Similarity, Pandas, NumPy, Streamlit</p>
+      <img src="images/project2.jpg" alt="Movie Recommendation System project">
+      <ul>
+        <li>Designed a personalized movie recommendation engine.</li>
+        <li>Implemented ALS matrix factorization for user-item interactions.</li>
+        <li>Improved personalization accuracy with hybrid logic.</li>
+      </ul>
+    </article>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Me</h2>
+  <p>Email: <a href="mailto:syedibrahim5625@gmail.com">syedibrahim5625@gmail.com</a></p>
+  <p>Phone: <a href="tel:+917406281706">+91 7406281706</a></p>
+  <p>LinkedIn: <a href="https://linkedin.com/in/syed-ibrahim-560a58256" target="_blank" rel="noopener">View Profile</a></p>
+
+  <form action="submit.php" method="POST">
+    <fieldset>
+      <legend>Send a Message</legend>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="username" placeholder="Your Name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="useremail" placeholder="Your Email" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="usermessage" placeholder="Write your message here" required></textarea>
+      
+      <button type="submit" class="animated-btn">Send</button>
+    </fieldset>
+  </form>
+</section>
+</main>
+<footer>
+  <p>&copy; 2025 Syed Ibrahim | All Rights Reserved</p>
+</footer>
+</body>
+</html>
