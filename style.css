@@ -98,7 +98,7 @@ section {
 .cards img:hover {
   transform: scale(1.05);
 }
-.skills {
+.skills-grid {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
@@ -107,11 +107,11 @@ section {
   list-style: none;
 }
 
-.skills li {
+.skills-grid li {
   flex: 1 1 200px;
 }
 
-.skills-grid {
+ {
   display: flex;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1rem;
@@ -192,4 +192,5 @@ footer {
     width: 100%; 
   }
 }
+
 
